@@ -22,8 +22,6 @@ computer_dict = {
 }
 
 # Create a function that resets the game
-
-
 def reset_game():
     b1["state"] = "active"
     b2["state"] = "active"
@@ -33,8 +31,6 @@ def reset_game():
     l4.config(text="")
 
 # Create a function to disable the button
-
-
 def button_disable():
     b1["state"] = "disable"
     b2["state"] = "disable"
@@ -44,8 +40,6 @@ def button_disable():
 # to select the game winner
 
 # If player selects rock
-
-
 def player_rock():
     c_v = computer_dict[str(random.randint(0, 2))]
     if c_v == "Rock":
