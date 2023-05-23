@@ -49,3 +49,8 @@ for question in questions:
         # accessing options at index of zero
         # then one, two, three, four, five
         print(option)  # print every option in options at given row number
+
+# as we test the above we have some options but all of these options are for the first question
+# we will need to increment our question number
+
+    question_num += 1  # this now gives us the correct options for each question
