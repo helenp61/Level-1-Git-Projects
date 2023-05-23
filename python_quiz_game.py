@@ -42,3 +42,10 @@ for question in questions:
     print("----------------------")  # Decorative Text
     print(question)         # after we display every question we need to
     # display every option
+
+    for option in options[question_num]:    # options is a 2D Tuple
+        # add index operator - question_num variable
+        # its a number so at first we are
+        # accessing options at index of zero
+        # then one, two, three, four, five
+        print(option)  # print every option in options at given row number
